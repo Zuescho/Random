@@ -21,11 +21,11 @@ Kann man wohl eigentlich im BIOS ausschalten, aber natürlich nicht in diesem bi
 
 
 ## Anleitung
-So sieht es am Anfang aus, bitte nicht von ``Laufwerk 0`` irritieren lassen, das ist eine externe Festplatte auf welchem die Treiber liegen, welche wir später benötigen.
+So sieht es am Anfang aus, bitte nicht von ``Laufwerk 0`` irritieren lassen, das ist eine externe Festplatte auf welchem die Treiber liegen, welche wir später benötigen.  
 Aber wie man sieht, keine NVME SSD zu sehen ...
 ![](attachments/intel_vmd_001.png)
 
-Rechner neu starten und auf dem vorinstallierten Windows 11 schauen, was als Speichercontroller angezeigt wird, weil die normalen Windows Treiber wohl nicht reichen.
+Rechner neu starten und auf dem vorinstallierten Windows 11 schauen, was als Speichercontroller angezeigt wird, weil die normalen Windows Treiber wohl nicht reichen.  
 ![](attachments/intel_vmd_002.png)
 
 Über die Treiberdetails können wir sehen, welche Daten dafür benutzt werden bzw. welche wir gleich noch einmal separat benötigen.
