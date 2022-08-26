@@ -41,6 +41,8 @@ dism /online /export-driver /destination:C:\extra-driver
 ````
 Dort sind jetzt alle Treiber drin welche wir später benötigen, da ich Probleme bekommen hatte, als ich versuchte diese während der Installation zu importieren, habe ich dann hier den benötigten **Intel RST VMD Controller 9A0B** noch einmal separat abgelegt.
 
+![](attachments/intel_vmd_003_5.png)
+
 ---
 Neuer Versuch, mit allen Treibern und den Controller Treiber separat wieder in die Betriebsinstallation, diesmal kommt ``Laufwerk 0`` auch zum Einsatz, dies ist ja unsere externe Festplatte wo alle Treiber drauf liegen.
 ![](attachments/intel_vmd_004.png)
