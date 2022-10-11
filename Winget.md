@@ -46,27 +46,45 @@ Next level AIDS missing dependency
 https://github.com/microsoft/winget-cli/issues/1861 
 
 - [Download Microsoft.UI.XAML](https://www.nuget.org/packages/Microsoft.UI.Xaml/)
+
+---
 ![](attachments/winget_cli_004.png)
+
+---
 
 ![](attachments/winget_cli_005.png)
 
+---
+
 ``Add-AppPackage -Path .\Microsoft.UI.Xaml.2.8.appx``
 
+---
+
 ![](attachments/winget_cli_006.png)
+
+---
 
 ## **Winget-CLI**
 - [Download Winget-CLI](https://github.com/microsoft/winget-cli/releases)
 
+---
+
 ![](attachments/winget_cli_007.png)
+
+---
 
 ``Add-AppxProvisionedPackage -Online -PackagePath .\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -LicensePath .\7bcb1a0ab33340daa57fa5b81faec616_License1.xml``
 
+---
+
 ![](attachments/winget_cli_008.png)
+
+---
 
 - [Winget Install Parameter](https://learn.microsoft.com/en-us/windows/package-manager/winget/install)
 - [winstall RustDesk](https://winstall.app/apps/RustDesk.RustDesk)
 
 ``winget install --id=RustDesk.RustDesk  -e``
 
-![](attachments/winget_cli_009.webm)
+![](attachments/winget_cli_009.gif)
 
