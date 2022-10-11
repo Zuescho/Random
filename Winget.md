@@ -9,15 +9,24 @@ Windows cannot install package Microsoft.DesktopAppInstaller_1.3.2691.0_x64__8we
 
 ## **Desktop framework** (Not sure if needed?)
 - [Download Framework](https://learn.microsoft.com/en-gb/troubleshoot/developer/visualstudio/cpp/libraries/c-runtime-packages-desktop-bridge#how-to-install-and-update-desktop-framework-packages)
-
+---
 ![](attachments/winget_cli_001.png)
 
+---
+
 ``Add-AppxPackage -Path .\Microsoft.VCLibs.x64.14.00.Desktop.appx``
+
+---
 
 ![](attachments/winget_cli_002.png)
 YourPhone killen
 
+---
+
 ![](attachments/winget_cli_003.png)
+
+---
+
 Ist aber gar nicht aktiv?
 
 ``Get-AppxPackage -AllUsers | Format-List -Property PackageFullName,PackageUserInformation``
@@ -51,6 +60,7 @@ https://github.com/microsoft/winget-cli/issues/1861
 ![](attachments/winget_cli_007.png)
 
 ``Add-AppxProvisionedPackage -Online -PackagePath .\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -LicensePath .\7bcb1a0ab33340daa57fa5b81faec616_License1.xml``
+
 ![](attachments/winget_cli_008.png)
 
 - [Winget Install Parameter](https://learn.microsoft.com/en-us/windows/package-manager/winget/install)
@@ -58,5 +68,5 @@ https://github.com/microsoft/winget-cli/issues/1861
 
 ``winget install --id=RustDesk.RustDesk  -e``
 
-![Video](attachments/winget_cli_009.webm)
+![](attachments/winget_cli_009.webm)
 
