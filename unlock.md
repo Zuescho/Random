@@ -1,5 +1,12 @@
 # Aachener Zeitung Unlock
 
+## Update 14.04.2023 broken...  
+
+Die Aachner Zeitung setzt jetzt auf Cloudflare und blockt sobald man sich al googlebot meldet, wahrscheinlich sind nur einzelne IP ranges jetzt freigeschaltet.  
+Daher das ganze funktioniert hier nicht mehr...  
+Als Alternative kann man sich das noch über https://search.google.com/test/rich-results/result?id=MYy1AOPpMGDxY6NukhcbNw holen.  
+Oben in der Zeile die URL vom Artikel rein und dann auf `Getestete Seite Anzeigen` klicken, dort dann wiederum auf `Screenshot`.s
+
 >Aachner Zeitung lesen ohne Abo? Kein Problem!
 
 Vorraussetzungen:
